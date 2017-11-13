@@ -22,9 +22,9 @@
 #import <Foundation/Foundation.h>
 
 #import <Availability.h>
-#import "AFURLRequestSerialization.h"
-#import "AFURLResponseSerialization.h"
-#import "AFSecurityPolicy.h"
+#import <AFNetworking/AFURLRequestSerialization.h>
+#import <AFNetworking/AFURLResponseSerialization.h>
+#import <AFNetworking/AFSecurityPolicy.h>
 
 #ifndef NS_DESIGNATED_INITIALIZER
 #if __has_attribute(objc_designated_initializer)

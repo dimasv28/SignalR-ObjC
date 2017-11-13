@@ -9,15 +9,9 @@
 /* Begin PBXBuildFile section */
 		0A3661DB1FB9CAFB0029F9AE /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D41FB9CAFB0029F9AE /* AFHTTPRequestOperation.m */; };
 		0A3661DC1FB9CAFB0029F9AE /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D51FB9CAFB0029F9AE /* AFURLConnectionOperation.m */; };
-		0A3661DD1FB9CAFB0029F9AE /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661D61FB9CAFB0029F9AE /* AFHTTPRequestOperation.h */; };
 		0A3661DE1FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D71FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.m */; };
-		0A3661E01FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661D91FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.h */; };
-		0A3661E11FB9CAFB0029F9AE /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661DA1FB9CAFB0029F9AE /* AFURLConnectionOperation.h */; };
-		0A3661E21FB9CC4B0029F9AE /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661D61FB9CAFB0029F9AE /* AFHTTPRequestOperation.h */; };
 		0A3661E31FB9CC4F0029F9AE /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D41FB9CAFB0029F9AE /* AFHTTPRequestOperation.m */; };
-		0A3661E41FB9CC530029F9AE /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661D91FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.h */; };
 		0A3661E51FB9CC530029F9AE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D71FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.m */; };
-		0A3661E71FB9CC530029F9AE /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661DA1FB9CAFB0029F9AE /* AFURLConnectionOperation.h */; };
 		0A3661E81FB9CC530029F9AE /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D51FB9CAFB0029F9AE /* AFURLConnectionOperation.m */; };
 		391F97A41C711362007AA844 /* SRHubProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F979F1C711340007AA844 /* SRHubProxyTests.m */; };
 		391F97A51C711363007AA844 /* SRHubProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F979F1C711340007AA844 /* SRHubProxyTests.m */; };
@@ -537,9 +531,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				39302A281C6977800061C6B5 /* SignalR.h in Headers */,
-				0A3661E01FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.h in Headers */,
-				0A3661DD1FB9CAFB0029F9AE /* AFHTTPRequestOperation.h in Headers */,
-				0A3661E11FB9CAFB0029F9AE /* AFURLConnectionOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,9 +538,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3661E21FB9CC4B0029F9AE /* AFHTTPRequestOperation.h in Headers */,
-				0A3661E41FB9CC530029F9AE /* AFHTTPRequestOperationManager.h in Headers */,
-				0A3661E71FB9CC530029F9AE /* AFURLConnectionOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

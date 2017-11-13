@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3661DB1FB9CAFB0029F9AE /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D41FB9CAFB0029F9AE /* AFHTTPRequestOperation.m */; };
+		0A3661DC1FB9CAFB0029F9AE /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D51FB9CAFB0029F9AE /* AFURLConnectionOperation.m */; };
+		0A3661DD1FB9CAFB0029F9AE /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661D61FB9CAFB0029F9AE /* AFHTTPRequestOperation.h */; };
+		0A3661DE1FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D71FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.m */; };
+		0A3661E01FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661D91FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.h */; };
+		0A3661E11FB9CAFB0029F9AE /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661DA1FB9CAFB0029F9AE /* AFURLConnectionOperation.h */; };
+		0A3661E21FB9CC4B0029F9AE /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661D61FB9CAFB0029F9AE /* AFHTTPRequestOperation.h */; };
+		0A3661E31FB9CC4F0029F9AE /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D41FB9CAFB0029F9AE /* AFHTTPRequestOperation.m */; };
+		0A3661E41FB9CC530029F9AE /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661D91FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.h */; };
+		0A3661E51FB9CC530029F9AE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D71FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.m */; };
+		0A3661E71FB9CC530029F9AE /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3661DA1FB9CAFB0029F9AE /* AFURLConnectionOperation.h */; };
+		0A3661E81FB9CC530029F9AE /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3661D51FB9CAFB0029F9AE /* AFURLConnectionOperation.m */; };
 		391F97A41C711362007AA844 /* SRHubProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F979F1C711340007AA844 /* SRHubProxyTests.m */; };
 		391F97A51C711363007AA844 /* SRHubProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F979F1C711340007AA844 /* SRHubProxyTests.m */; };
 		391F97A61C71136A007AA844 /* SRConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F979D1C711340007AA844 /* SRConnectionTests.m */; };
@@ -116,6 +128,12 @@
 
 /* Begin PBXFileReference section */
 		07F6CD2CF7A672DA7749C5EF /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig"; sourceTree = "<group>"; };
+		0A3661D41FB9CAFB0029F9AE /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		0A3661D51FB9CAFB0029F9AE /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		0A3661D61FB9CAFB0029F9AE /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		0A3661D71FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		0A3661D91FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		0A3661DA1FB9CAFB0029F9AE /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
 		169D6F6F1D2268E3DC76B1F5 /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig"; sourceTree = "<group>"; };
 		31B651E0317CA0F4E26E1338 /* Pods_SignalR_Client_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_Client_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3903084A173C660E00FE660E /* SRHeartbeatMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHeartbeatMonitor.h; sourceTree = "<group>"; };
@@ -258,6 +276,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3661D31FB9CAED0029F9AE /* AFNetworking_2_6_3 */ = {
+			isa = PBXGroup;
+			children = (
+				0A3661D61FB9CAFB0029F9AE /* AFHTTPRequestOperation.h */,
+				0A3661D41FB9CAFB0029F9AE /* AFHTTPRequestOperation.m */,
+				0A3661D91FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.h */,
+				0A3661D71FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.m */,
+				0A3661DA1FB9CAFB0029F9AE /* AFURLConnectionOperation.h */,
+				0A3661D51FB9CAFB0029F9AE /* AFURLConnectionOperation.m */,
+			);
+			path = AFNetworking_2_6_3;
+			sourceTree = "<group>";
+		};
 		38078F44ACF7B5D83E574BE7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +405,7 @@
 		3920781715AF13F6009B959E /* SignalR.Client */ = {
 			isa = PBXGroup;
 			children = (
+				0A3661D31FB9CAED0029F9AE /* AFNetworking_2_6_3 */,
 				3920782515AF13F6009B959E /* Hubs */,
 				3920783715AF13F6009B959E /* Infrastructure */,
 				39EBAC2816D03F1000C6F359 /* SRConnectionInterface.h */,
@@ -505,6 +537,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				39302A281C6977800061C6B5 /* SignalR.h in Headers */,
+				0A3661E01FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.h in Headers */,
+				0A3661DD1FB9CAFB0029F9AE /* AFHTTPRequestOperation.h in Headers */,
+				0A3661E11FB9CAFB0029F9AE /* AFURLConnectionOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +547,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3661E21FB9CC4B0029F9AE /* AFHTTPRequestOperation.h in Headers */,
+				0A3661E41FB9CC530029F9AE /* AFHTTPRequestOperationManager.h in Headers */,
+				0A3661E71FB9CC530029F9AE /* AFURLConnectionOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,12 +560,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39302A051C6974C20061C6B5 /* Build configuration list for PBXNativeTarget "SignalR.Client.OSX" */;
 			buildPhases = (
-				BE773CA6D603623DBCDFD6AF /* Check Pods Manifest.lock */,
+				BE773CA6D603623DBCDFD6AF /* [CP] Check Pods Manifest.lock */,
 				393029EF1C6974C10061C6B5 /* Sources */,
 				393029F01C6974C10061C6B5 /* Frameworks */,
 				393029F11C6974C10061C6B5 /* Headers */,
 				393029F21C6974C10061C6B5 /* Resources */,
-				7C5BAF419D1DB75581A41B87 /* Copy Pods Resources */,
+				7C5BAF419D1DB75581A41B87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -542,12 +580,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39302A081C6974C20061C6B5 /* Build configuration list for PBXNativeTarget "SignalR.Client.OSXTests" */;
 			buildPhases = (
-				537C4819A81E84FE2982C1CF /* Check Pods Manifest.lock */,
+				537C4819A81E84FE2982C1CF /* [CP] Check Pods Manifest.lock */,
 				393029F91C6974C20061C6B5 /* Sources */,
 				393029FA1C6974C20061C6B5 /* Frameworks */,
 				393029FB1C6974C20061C6B5 /* Resources */,
-				67E90B84652BAD667E4611D1 /* Embed Pods Frameworks */,
-				0B029DDB5BC07F36BE28C47C /* Copy Pods Resources */,
+				67E90B84652BAD667E4611D1 /* [CP] Embed Pods Frameworks */,
+				0B029DDB5BC07F36BE28C47C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -563,12 +601,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39302A3F1C6978AC0061C6B5 /* Build configuration list for PBXNativeTarget "SignalR.Client.iOS" */;
 			buildPhases = (
-				42E081C85DE4F4916D0F3D75 /* Check Pods Manifest.lock */,
+				42E081C85DE4F4916D0F3D75 /* [CP] Check Pods Manifest.lock */,
 				39302A291C6978AB0061C6B5 /* Sources */,
 				39302A2A1C6978AB0061C6B5 /* Frameworks */,
 				39302A2B1C6978AB0061C6B5 /* Headers */,
 				39302A2C1C6978AB0061C6B5 /* Resources */,
-				796268F885EFEC8F1356854A /* Copy Pods Resources */,
+				796268F885EFEC8F1356854A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -583,12 +621,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39302A421C6978AC0061C6B5 /* Build configuration list for PBXNativeTarget "SignalR.Client.iOSTests" */;
 			buildPhases = (
-				21C56E6B6FDFA0220435E7AD /* Check Pods Manifest.lock */,
+				21C56E6B6FDFA0220435E7AD /* [CP] Check Pods Manifest.lock */,
 				39302A331C6978AC0061C6B5 /* Sources */,
 				39302A341C6978AC0061C6B5 /* Frameworks */,
 				39302A351C6978AC0061C6B5 /* Resources */,
-				2AC719B5534D658A6E1038BA /* Embed Pods Frameworks */,
-				1A11AFB25C13B6568AF7E084 /* Copy Pods Resources */,
+				2AC719B5534D658A6E1038BA /* [CP] Embed Pods Frameworks */,
+				1A11AFB25C13B6568AF7E084 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -676,14 +714,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B029DDB5BC07F36BE28C47C /* Copy Pods Resources */ = {
+		0B029DDB5BC07F36BE28C47C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -691,14 +729,14 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1A11AFB25C13B6568AF7E084 /* Copy Pods Resources */ = {
+		1A11AFB25C13B6568AF7E084 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -706,89 +744,112 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		21C56E6B6FDFA0220435E7AD /* Check Pods Manifest.lock */ = {
+		21C56E6B6FDFA0220435E7AD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2AC719B5534D658A6E1038BA /* Embed Pods Frameworks */ = {
+		2AC719B5534D658A6E1038BA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket-iOS/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock-iOS/OCMock.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		42E081C85DE4F4916D0F3D75 /* Check Pods Manifest.lock */ = {
+		42E081C85DE4F4916D0F3D75 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR.Client.iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		537C4819A81E84FE2982C1CF /* Check Pods Manifest.lock */ = {
+		537C4819A81E84FE2982C1CF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		67E90B84652BAD667E4611D1 /* Embed Pods Frameworks */ = {
+		67E90B84652BAD667E4611D1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-c94d3492/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket-macOS/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock-macOS/OCMock.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		796268F885EFEC8F1356854A /* Copy Pods Resources */ = {
+		796268F885EFEC8F1356854A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -796,14 +857,14 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.iOS/Pods-SignalR.Client.iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C5BAF419D1DB75581A41B87 /* Copy Pods Resources */ = {
+		7C5BAF419D1DB75581A41B87 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -811,19 +872,22 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.OSX/Pods-SignalR.Client.OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BE773CA6D603623DBCDFD6AF /* Check Pods Manifest.lock */ = {
+		BE773CA6D603623DBCDFD6AF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR.Client.OSX-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -833,9 +897,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3661DB1FB9CAFB0029F9AE /* AFHTTPRequestOperation.m in Sources */,
 				39302A201C69768D0061C6B5 /* SRLongPollingTransport.m in Sources */,
 				39302A0B1C69768D0061C6B5 /* SRHubConnection.m in Sources */,
 				39302A151C69768D0061C6B5 /* SRHeartbeatMonitor.m in Sources */,
+				0A3661DC1FB9CAFB0029F9AE /* AFURLConnectionOperation.m in Sources */,
 				39302A231C6976A30061C6B5 /* SRSubscription.m in Sources */,
 				39302A1E1C69768D0061C6B5 /* SRHttpBasedTransport.m in Sources */,
 				39302A1A1C69768D0061C6B5 /* SRChunkBuffer.m in Sources */,
@@ -849,6 +915,7 @@
 				39302A0F1C69768D0061C6B5 /* SRHubResult.m in Sources */,
 				39302A211C69768D0061C6B5 /* SRServerSentEventsTransport.m in Sources */,
 				39302A1F1C69768D0061C6B5 /* SRAutoTransport.m in Sources */,
+				0A3661DE1FB9CAFB0029F9AE /* AFHTTPRequestOperationManager.m in Sources */,
 				39302A1D1C69768D0061C6B5 /* SRWebSocketConnectionInfo.m in Sources */,
 				39302A1B1C69768D0061C6B5 /* SREventSourceStreamReader.m in Sources */,
 				39302A141C69768D0061C6B5 /* SRConnectionExtensions.m in Sources */,
@@ -887,6 +954,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3661E81FB9CC530029F9AE /* AFURLConnectionOperation.m in Sources */,
+				0A3661E31FB9CC4F0029F9AE /* AFHTTPRequestOperation.m in Sources */,
 				39302A501C6979E10061C6B5 /* SRHeartbeatMonitor.m in Sources */,
 				39302A4E1C6979E10061C6B5 /* SRConnection.m in Sources */,
 				39302A451C6979E10061C6B5 /* SRHubConnection.m in Sources */,
@@ -894,6 +963,7 @@
 				39302A4B1C6979E10061C6B5 /* NSObject+SRJSON.m in Sources */,
 				39302A4C1C6979E10061C6B5 /* SRExceptionHelper.m in Sources */,
 				39302A4D1C6979E10061C6B5 /* SRVersion.m in Sources */,
+				0A3661E51FB9CC530029F9AE /* AFHTTPRequestOperationManager.m in Sources */,
 				39302A471C6979E10061C6B5 /* SRHubInvocation.m in Sources */,
 				39302A461C6979E10061C6B5 /* SRHubProxy.m in Sources */,
 				39302A491C6979E10061C6B5 /* SRHubResult.m in Sources */,

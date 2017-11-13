@@ -26,6 +26,7 @@
 #import "SRExceptionHelper.h"
 #import "SRLog.h"
 #import "SRLongPollingTransport.h"
+#import "AFHTTPRequestOperation.h"
 
  @interface SRLongPollingTransport()
  

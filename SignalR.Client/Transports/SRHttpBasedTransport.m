@@ -25,6 +25,7 @@
 #import "SRHttpBasedTransport.h"
 #import "SRLog.h"
 #import "SRNegotiationResponse.h"
+#import "AFHTTPRequestOperation.h"
 
 #import "NSObject+SRJSON.h"
 
